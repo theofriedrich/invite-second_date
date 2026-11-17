@@ -177,8 +177,8 @@
           </label>
         </div>
         <div id="cal" style="display: none; margin-top: 12px; font-size: 11px;">
-          <a href="data:text/calendar;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wClBST0RJRDotLy9TZWNvbmQgRGF0ZS8vRU4KQkVHSU46VkVWRU5UClVJRDpzZWNvbmQtZGF0ZS0yMDI2MTEyMEBkYXRlCkRUU1RBTVA6MjAyNjExMTdUMDAwMDAwWgpEVFNUQVJUOjIwMjYxMTIwVDE5MzAwMFoKRFRFTkQ6MjAyNjExMjBUMjMwMDAwWgpTVU1NQVJZOlNlY29uZCBkYXRlIC0gQ2luZW1hICYgS2ViYWIKTE9DQVRJT046TGUgR3JhbmQgUmV4XCwgMSBCb3VsZXZhcmQgUG9pc3Nvbm5pw6hyZVwsIDc1MDAyIFBhcmlzCkRFU0NSSVBUSU9OOkNpbmVtYSBhdCBMZSBHcmFuZCBSZXggKFRoZSBsYXN0IEh1bmdlciBHYW1lcykgdGhlbiBhIGxlZ2VuZGFyeSBCZXJsaW5lciBrZWJhYi4gU2VlIHlvdSB0aGVyZSEKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==" download="second-date.ics" style="font-size: 11px; font-style: italic; color: #a32832;">Add to calendar (Apple Calendar)</a>
-          <span style="color: #a89484; font-size: 10px; display: block; margin-top: 2px;">Click to open the .ics file and save the date.</span>
+          <a href="date.ics" download="second-date.ics" style="font-size: 11px; font-style: italic; color: #a32832;">Add to calendar (Apple Calendar)</a>
+          <span style="color: #a89484; font-size: 10px; display: block; margin-top: 2px;">Tap to add Friday 20 November, 8:30 PM to your calendar.</span>
         </div>
         <p id="reply" style="display: none; margin-top: 10px;">
           <a id="replylink" href="#" style="font-size: 11px; font-style: italic; color: #a32832;">Send my answer by email</a>
@@ -201,10 +201,10 @@
       var body, subject;
       if (yes.checked) {
         subject = "My answer: YES (obviously)";
-        body = "I checked YES!\n\nFriday 20 November, 8:30 PM, Le Grand Rex, then the legendary kebab. It's a date.\n\n(P.S.: this message was pre-written by the invitation card.)";
+        body = "I said YES (obviously).\n\nSo Friday 20 November, 8:30 PM then. Best decision of the week, clearly.";
       } else if (no.checked) {
-        subject = "My answer: NO";
-        body = "I checked NO.\n\nBut maybe think of the kebab once more...";
+        subject = "My answer: NO...";
+        body = "I checked NO.\n\nThe kebab and I are devastated. Think of me during the movie...";
       } else {
         reply.style.display = "none";
         return;
@@ -222,5 +222,6 @@
       updateReply();
     });
   </script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" nonce="iGCDL8QvbfYzeXBB03LIaQ==" data-cf-beacon='{"version":"2024.11.0","token":"36b4216ae2dc4d5488c249161e71fe1e","spa":2}' crossorigin="anonymous"></script>
 </body>
 </html>
